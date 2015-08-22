@@ -49,20 +49,6 @@
                 android:icon="@drawable/ic_launcher_cyanogenmod"
                 android:protectionLevel="normal" />
 
-    <!-- Allows a 3rd party to view the phone SIM states and data connection -->
-    <permission android:name="cyanogenmod.permission.READ_MSIM_PHONE_STATE"
-                android:label="@string/permlab_readMSPhoneState"
-                android:description="@string/permdesc_readMSPhoneState"
-                android:icon="@drawable/ic_launcher_cyanogenmod"
-                android:protectionLevel="normal" />
-
-    <!-- Allows a 3rd party to modify the phone SIM states and data connection -->
-    <permission android:name="cyanogenmod.permission.MODIFY_MSIM_PHONE_STATE"
-                android:label="@string/permlab_modifyMSPhoneState"
-                android:description="@string/permdesc_modifyMSPhoneState"
-                android:icon="@drawable/ic_launcher_cyanogenmod"
-                android:protectionLevel="normal" />
-
     <!-- Allows an application access to the CM hardware abstraction framework -->
     <permission android:name="cyanogenmod.permission.HARDWARE_ABSTRACTION_ACCESS"
                 android:label="@string/permlab_useHardwareFramework"
