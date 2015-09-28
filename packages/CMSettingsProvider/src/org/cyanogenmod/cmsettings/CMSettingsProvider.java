@@ -178,25 +178,15 @@ public class CMSettingsProvider extends ContentProvider {
             HashMap<String, String> secureToCmSettingsMap = new HashMap<String, String>();
             secureToCmSettingsMap.put(Settings.Secure.ADVANCED_MODE,
                     CMSettings.Secure.ADVANCED_MODE);
-            secureToCmSettingsMap.put(Settings.Secure.BUTTON_BACKLIGHT_TIMEOUT,
-                    CMSettings.Secure.BUTTON_BACKLIGHT_TIMEOUT);
-            secureToCmSettingsMap.put(Settings.Secure.BUTTON_BRIGHTNESS,
-                    CMSettings.Secure.BUTTON_BRIGHTNESS);
             secureToCmSettingsMap.put(Settings.Secure.DEFAULT_THEME_COMPONENTS,
                     CMSettings.Secure.DEFAULT_THEME_COMPONENTS);
             secureToCmSettingsMap.put(Settings.Secure.DEFAULT_THEME_PACKAGE,
                     CMSettings.Secure.DEFAULT_THEME_PACKAGE);
-            secureToCmSettingsMap.put(Settings.Secure.DEV_FORCE_SHOW_NAVBAR,
-                    CMSettings.Secure.DEV_FORCE_SHOW_NAVBAR);
             secureToCmSettingsMap.put(
                     Configuration.THEME_PKG_CONFIGURATION_PERSISTENCE_PROPERTY,
                             CMSettings.Secure.NAME_THEME_CONFIG);
-            secureToCmSettingsMap.put(Settings.Secure.KEYBOARD_BRIGHTNESS,
-                    CMSettings.Secure.KEYBOARD_BRIGHTNESS);
             secureToCmSettingsMap.put(Settings.Secure.POWER_MENU_ACTIONS,
                     CMSettings.Secure.POWER_MENU_ACTIONS);
-            secureToCmSettingsMap.put(Settings.Secure.STATS_COLLECTION,
-                    CMSettings.Secure.STATS_COLLECTION);
             secureToCmSettingsMap.put(Settings.Secure.QS_SHOW_BRIGHTNESS_SLIDER,
                     CMSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER);
             secureToCmSettingsMap.put(Settings.Secure.QS_TILES,
