@@ -422,7 +422,6 @@ public class CMSettingsProvider extends ContentProvider {
 
         int code = sUriMatcher.match(uri);
         String tableName = getTableNameFromUriMatchCode(code);
-        checkWritePermissions(tableName);
 
         CMDatabaseHelper dbHelper = getOrEstablishDatabase(getUserIdForTable(tableName, userId));
         SQLiteDatabase db = dbHelper.getReadableDatabase();
